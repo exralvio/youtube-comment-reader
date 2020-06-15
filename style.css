@@ -1,0 +1,36 @@
+body {
+    background: #000;
+}
+
+#comment-list .card {
+    background: #333;
+    color: #fff;
+    border-color: #888;
+}
+
+#comment-list .card .alert {
+    background: #666;
+}
+
+#comment-list .user-name img {
+    width: 30px;
+}
+
+#comment-list .video-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 85%;
+    white-space: nowrap;
+}
+
+#comment-list .user-comment {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h1 {
+    color: #fff;
+}
