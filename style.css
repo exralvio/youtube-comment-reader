@@ -21,6 +21,11 @@ body {
     overflow: hidden;
     width: 85%;
     white-space: nowrap;
+    font-size: 4vw;
+}
+
+#comment-list .user-name {
+    font-size: 4vw;
 }
 
 #comment-list .user-comment {
@@ -29,6 +34,7 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 4vw;
 }
 
 h1 {
